@@ -1,4 +1,4 @@
-![CMNC draft](https://github.com/user-attachments/assets/848cf62a-80c0-4cd2-a469-d15ea20f9ec0)﻿# cmnc
+# cmnc
 
 ## Original drawings of website design
 
@@ -25,3 +25,8 @@ current logo for CMNC to be added.
 
 ## How to view the project
 - [view the deployed website tbc]
+
+## Notes for future projects
+Possibility of adding Spond - which is a sports app that allows event planning and payments.
+Add a better menu
+Add more features
