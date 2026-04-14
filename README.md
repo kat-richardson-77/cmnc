@@ -1,9 +1,8 @@
-﻿# cmnc
+![CMNC draft](https://github.com/user-attachments/assets/848cf62a-80c0-4cd2-a469-d15ea20f9ec0)﻿# cmnc
 
 ## Original drawings of website design
 
-![Uploading CMNC Website Design.jpeg…]()
-
+<img width="3024" height="4032" alt="CMNC draft" src="https://github.com/user-attachments/assets/b0755f26-36af-4a1a-b330-cbb0862a0cff" />
 
 ## Description
 
