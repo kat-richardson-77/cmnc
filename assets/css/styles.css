@@ -3,3 +3,15 @@
     color:pink;
     background-color: black;
 }
+
+.column {
+    float: left;
+}
+.left {
+    width: 25%;
+}
+.row::after {
+content: "";
+display:table;
+clear:both;
+}
