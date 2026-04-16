@@ -41,15 +41,28 @@ ease of navigation, not too many things on each page/section, but the ability to
 ## Surface
 using the menu list to navigate to the different sections with ease
 
-
 ## logo
 
 <img width="179" height="179" alt="cmnc-logo" src="https://github.com/user-attachments/assets/ba6e9c1f-66e7-41a3-a487-083f9bb88864" />
 
+## user stories
+story
+- As an existing Netball player and having seen other clubs with their own wesite to promote themselves, I want to create a webpage dedicated to my club.
+
+Accpetance Criteria:
+- to provide details of the club
+- to provide current training sessions
+- to provide a monthly view of training sessions.
+- to provide an area to contact us for more information 
+
 ## how to view
 - [view the deployed website tbc]
+
+## testing
 
 ## future notes for building on
 - Addition of Spond - which is a sports app that allows event planning and payments.
 - more interactive drop down menu
 - Add more features
+
+## credits
