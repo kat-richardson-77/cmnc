@@ -13,16 +13,34 @@ It will show a home page with links to see a brief history of the club, a page t
 
 ## Planes:
 ## Strategy
+Goals:
+- create a unique to CMNC website
+- show training availability
+- show history of the club, it's growth
 ## Scope
-## Structure
-## Skeleton
-## Surface
-
-## Features
+Features:
 - Menu list
 - Contact us form
 - Calendar
 - list of training sessions
+## Structure
+Main page:
+- Name and logo
+- history of the club
+- menu to other pages/sections
+Contact Us page:
+- name and logo
+- names/contact numbers of key members
+- contact us form
+Training page:
+- name and logo
+- calendar
+- list of training sessions  
+## Skeleton
+ease of navigation, not too many things on each page/section, but the ability to navigate to the wanted area with ease
+## Surface
+using the menu list to navigate to the different sections with ease
+
 
 ## logo
 
