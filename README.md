@@ -2,6 +2,8 @@
 
 ## website idea drawing
 
+<img width="3024" height="4032" alt="cmnc-design" src="https://github.com/user-attachments/assets/aed14223-7bbd-490b-99cb-abaee6a884c6" />
+
 ## description
 
 The comnc website is for all netballers to learn about the history of the club. See details on training sessions, find out about all our policies, and an introduction into the current Manchester league.
@@ -23,6 +25,9 @@ It will show a home page with links to see a brief history of the club, a page t
 - list of training sessions
 
 ## logo
+
+<img width="179" height="179" alt="cmnc-logo" src="https://github.com/user-attachments/assets/ba6e9c1f-66e7-41a3-a487-083f9bb88864" />
+
 ## how to view
 - [view the deployed website tbc]
 
