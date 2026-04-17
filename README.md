@@ -59,6 +59,9 @@ Accpetance Criteria:
 - [view the deployed website tbc]
 
 ## testing
+- tested pages on local build of visual studio
+- tested pages on pre-release version of website
+- test live page to ensure there are no broken links
 
 ## future notes for building on
 - Addition of Spond - which is a sports app that allows event planning and payments.
@@ -66,3 +69,5 @@ Accpetance Criteria:
 - Add more features
 
 ## credits
+- Bootstrap
+- Google Calendar
