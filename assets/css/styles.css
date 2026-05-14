@@ -28,3 +28,7 @@ body {
 #navbar {
     background-color: black;
 }
+
+#navbar .logo {
+    width: 40px;
+}
