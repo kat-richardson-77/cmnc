@@ -56,17 +56,28 @@ Accpetance Criteria:
 - to provide an area to contact us for more information 
 
 ## how to view
-- [view the deployed website tbc]
+using github release
+- https://kat-richardson-77.github.io/cmnc/
 
 ## testing
 - tested pages on local build of visual studio
+    - loaded Home page - checked link to engage works, and navigation menu works
+    - loaded Contact Us page - checked form is available and can reset the form, and click on send 
+    - loaded Training page - checked calendar is visible and can see future/past training events within the month
 - tested pages on pre-release version of website
+    - loaded Home page - checked link to engage works, and navigation menu works
+    - loaded Contact Us page - checked form is available and can reset the form, and click on send 
+    - loaded Training page - checked calendar is visible and can see future/past training events within the month
 - test live page to ensure there are no broken links
+    - loaded Home page - checked link to engage works, and navigation menu works
+    - loaded Contact Us page - checked form is available and can reset the form, and click on send 
+    - loaded Training page - checked calendar is visible and can see future/past training events within the month
 
 ## future notes for building on
 - Addition of Spond - which is a sports app that allows event planning and payments.
 - more interactive drop down menu
 - Add more features
+- More interactive contact us form to engage the user more
 
 ## credits
 - Bootstrap
