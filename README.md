@@ -79,7 +79,13 @@ using github release
     - loaded Home page - checked link to engage works, and navigation menu works ensured menus were responsive to resizing
     - loaded Contact Us page - checked form is available and can reset the form, and click on send and navigation menu works ensured menus were responsive to resizing
     - loaded Training page - checked calendar is visible and can see future/past training events within the month, ensure the list of training is available on the right sidde and navigation menu works ensured menus were responsive to resizing
- 
+
+## screenshots of finished project
+- home page <img width="2880" height="1908" alt="cmnchomepage" src="https://github.com/user-attachments/assets/cb491145-0a66-4ae4-a90f-4cb2efd437c9" />
+- contact us page <img width="2880" height="1920" alt="cmnccontactuspage" src="https://github.com/user-attachments/assets/c3db47f4-5a83-4eb2-8249-ae38eff27d9b" />
+- training page <img width="2880" height="1920" alt="cmnctrainingpage" src="https://github.com/user-attachments/assets/be582b9e-fc7c-4611-826c-702ad5f2b2e4" />
+
+
 ## Validator Testing
 - HTML
     - No errors were returned when passing through the official W3C validator
