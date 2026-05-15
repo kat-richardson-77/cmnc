@@ -1,4 +1,4 @@
-# cmnc
+# City of Manchester Netball Club
 
 ## website idea drawing
 
@@ -6,10 +6,7 @@
 
 ## description
 
-The comnc website is for all netballers to learn about the history of the club. See details on training sessions, find out about all our policies, and an introduction into the current Manchester league.
-
-[Original description: The CMNC website is for all Netballers to learn about the netball club.
-It will show a home page with links to see a brief history of the club, a page that links all the training sessions for the next two months on a rolling basis, which will include a current month calendar and a rolling two month list of all training sessions.  There will also be a link to a contact us page utilising contact details and a contact us form.]
+The comnc website is for all netballers to learn about the history of the club. See details on training sessions, find out about all our policies, and an introduction into the current Manchester Evening Netball league, and links to the governing body of Netball England Netball.
 
 ## Planes:
 ## Strategy
@@ -72,6 +69,12 @@ using github release
     - loaded Home page - checked link to engage works, and navigation menu works
     - loaded Contact Us page - checked form is available and can reset the form, and click on send 
     - loaded Training page - checked calendar is visible and can see future/past training events within the month
+ 
+## Validator Testing
+- HTML
+    - No errors were returned when passing through the official W3C validator
+- CSS
+    - No errors were found when passing through the official (Jigsaw) validator
 
 ## future notes for building on
 - Addition of Spond - which is a sports app that allows event planning and payments.
