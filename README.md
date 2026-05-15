@@ -42,7 +42,7 @@ using the menu list to navigate to the different sections with ease
 
 <img width="179" height="179" alt="cmnc-logo" src="https://github.com/user-attachments/assets/ba6e9c1f-66e7-41a3-a487-083f9bb88864" />
 
-## user stories
+## user storiy 1
 story
 - As an existing Netball player and having seen other clubs with their own wesite to promote themselves, I want to create a webpage dedicated to my club.
 
@@ -52,23 +52,33 @@ Accpetance Criteria:
 - to provide a monthly view of training sessions.
 - to provide an area to contact us for more information 
 
+## user story 2
+story
+- As a new netball player to Manchester I would like to be able to see what Netball clubs train on which day.
+Acceptance Criteria:
+- to show details of the club and it's history
+- to show details of training provided by the club
+- to show details of how to contact the club
+- to show details of where the training is
+- to show details of other / affiliated netball around Manchester
+
 ## how to view
 using github release
 - https://kat-richardson-77.github.io/cmnc/
 
 ## testing
 - tested pages on local build of visual studio
-    - loaded Home page - checked link to engage works, and navigation menu works
-    - loaded Contact Us page - checked form is available and can reset the form, and click on send 
-    - loaded Training page - checked calendar is visible and can see future/past training events within the month
+    - loaded Home page - checked link to engage works, and navigation menu works ensured menus were responsive to resizing
+    - loaded Contact Us page - checked form is available and can reset the form, and click on send and navigation menu works ensured menus were responsive to resizing
+    - loaded Training page - checked calendar is visible and can see future/past training events within the month, ensure the list of training is available on the right sidde and navigation menu works ensured menus were responsive to resizing
 - tested pages on pre-release version of website
-    - loaded Home page - checked link to engage works, and navigation menu works
-    - loaded Contact Us page - checked form is available and can reset the form, and click on send 
-    - loaded Training page - checked calendar is visible and can see future/past training events within the month
+    - loaded Home page - checked link to engage works, and navigation menu works ensured menus were responsive to resizing
+    - loaded Contact Us page - checked form is available and can reset the form, and click on send and navigation menu works ensured menus were responsive to resizing
+    - loaded Training page - checked calendar is visible and can see future/past training events within the month, ensure the list of training is available on the right sidde and navigation menu works ensured menus were responsive to resizing
 - test live page to ensure there are no broken links
-    - loaded Home page - checked link to engage works, and navigation menu works
-    - loaded Contact Us page - checked form is available and can reset the form, and click on send 
-    - loaded Training page - checked calendar is visible and can see future/past training events within the month
+    - loaded Home page - checked link to engage works, and navigation menu works ensured menus were responsive to resizing
+    - loaded Contact Us page - checked form is available and can reset the form, and click on send and navigation menu works ensured menus were responsive to resizing
+    - loaded Training page - checked calendar is visible and can see future/past training events within the month, ensure the list of training is available on the right sidde and navigation menu works ensured menus were responsive to resizing
  
 ## Validator Testing
 - HTML
@@ -81,7 +91,9 @@ using github release
 - more interactive drop down menu
 - Add more features
 - More interactive contact us form to engage the user more
+- interactive / more features on the contact us form
 
 ## credits
 - Bootstrap
 - Google Calendar
+- favicon.io (https://favicon.io/favicon-converter/) used to create the favicon
