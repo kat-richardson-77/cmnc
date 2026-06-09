@@ -1,14 +1,28 @@
 # City of Manchester Netball Club
 
+## description
+The comnc website is for all netballers to learn about the history of the club. See details on training sessions, find out about all our policies, and an introduction into the current Manchester Evening Netball league, and links to the governing body of Netball England Netball.
+
+## Features
+1. Menu list
+2. Contact us form
+3. Calendar
+4. list of training sessions
+
+## How to View the Project
+- [View the deployed website]([https://kat-richardson-77.github.io/cmnc/])
+
+## Credits
+- The code for the England Netball logo was taken from [England Netball's Engage Website](https://engage.englandnetball.co.uk/EnglandNetball)
+- Bootstrap
+- Google Calendar
+- favicon.io (https://favicon.io/favicon-converter/) used to create the favicon
+  
 ## website idea drawing
 
 <img width="3024" height="4032" alt="cmnc-design" src="https://github.com/user-attachments/assets/aed14223-7bbd-490b-99cb-abaee6a884c6" />
 
-## description
 
-The comnc website is for all netballers to learn about the history of the club. See details on training sessions, find out about all our policies, and an introduction into the current Manchester Evening Netball league, and links to the governing body of Netball England Netball.
-
-## Planes:
 ## Strategy
 Goals:
 - create a unique to CMNC website
@@ -16,10 +30,7 @@ Goals:
 - show history of the club, it's growth
 ## Scope
 Features:
-- Menu list
-- Contact us form
-- Calendar
-- list of training sessions
+
 ## Structure
 Main page:
 - Name and logo
@@ -62,9 +73,6 @@ Acceptance Criteria:
 - to show details of where the training is
 - to show details of other / affiliated netball around Manchester
 
-## how to view
-using github release
-- https://kat-richardson-77.github.io/cmnc/
 
 ## testing
 - tested pages on local build of visual studio
@@ -102,7 +110,3 @@ using github release
 - More interactive contact us form to engage the user more
 - interactive / more features on the contact us form
 
-## credits
-- Bootstrap
-- Google Calendar
-- favicon.io (https://favicon.io/favicon-converter/) used to create the favicon
