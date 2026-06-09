@@ -1,4 +1,4 @@
-  # City of Manchester Netball Club
+# City of Manchester Netball Club
 
 ## Table of Contents
 
@@ -31,9 +31,11 @@ The comnc website is for all netballers to learn about the history of the club. 
     - to show details of other / affiliated netball around Manchester
 
 - Design Choices
+  - ? 
 - Colour Scheme
   - Black and Pink, on white back ground - the Clubs main colours are Black and Pink
 - Typography
+  - ? 
 - Information Architecture
   - Main page:
     - Name and logo
@@ -53,11 +55,11 @@ The comnc website is for all netballers to learn about the history of the club. 
 <img width="3024" height="4032" alt="cmnc-design" src="https://github.com/user-attachments/assets/aed14223-7bbd-490b-99cb-abaee6a884c6" />
 
 ### Features
-  - Existing Features
-    - Menu list
-    - Contact us form
-    - Calendar
-    - list of training sessions
+- Existing Features
+  - Menu list
+  - Contact us form
+  - Calendar
+  - list of training sessions
 - Future Features
   - Addition of Spond - which is a sports app that allows event planning and payments.
   - more interactive drop down menu
@@ -67,6 +69,11 @@ The comnc website is for all netballers to learn about the history of the club. 
 
 ### Technologies Used
 
+### logo's
+  - CMNC Logo
+<img width="179" height="179" alt="cmnc-logo" src="https://github.com/user-attachments/assets/ba6e9c1f-66e7-41a3-a487-083f9bb88864" />
+  - MENL Logo
+  - England Netball Logo
 ### Testing
     - Manual Testing
     - User Story Testing
@@ -99,9 +106,7 @@ ease of navigation, not too many things on each page/section, but the ability to
 ## Surface
 using the menu list to navigate to the different sections with ease
 
-## logo
 
-<img width="179" height="179" alt="cmnc-logo" src="https://github.com/user-attachments/assets/ba6e9c1f-66e7-41a3-a487-083f9bb88864" />
 
 ## user storiy 1
 story
