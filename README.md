@@ -105,9 +105,9 @@ It will also provide an introduction into the current Manchester Evening Netball
       - No errors were found when passing through the official (Jigsaw) validator
   - Lighthouse Testing
     - The homepage was tested for Website using Chrome Lighthouse 
-      [image]
+      <img width="946" height="220" alt="Lighthouse10062026" src="https://github.com/user-attachments/assets/5d90b758-dbe0-4683-a13a-5ad36991dd54" />
     - The homepage was tested for mobile using Chrome Lighthouse 
-      [image]
+      <img width="880" height="288" alt="LighthouseMobile10062026" src="https://github.com/user-attachments/assets/459fae8a-88f8-4455-b0b1-44055f52de40" />
   - Browser Compatibility
     - tested on Google Chrome (Version 149.0.7827.55 (Official Build) (64-bit))
     - tested on Microsoft Edge (Version 149.0.4022.62 (Official build) (64-bit))
@@ -129,12 +129,10 @@ It will also provide an introduction into the current Manchester Evening Netball
       - Using Visual Studio,  I installed the extension Live Server, open the folder, then rightclick on index.html and run with live server top open within your browser.
     - Cloning the Repository
 
-
 ### Screenshots of finished projects:
-    - home page <img width="2880" height="1908" alt="cmnchomepage" src="https://github.com/user-attachments/assets/cb491145-0a66-4ae4-a90f-4cb2efd437c9" />
-    - contact us page <img width="2880" height="1920" alt="cmnccontactuspage" src="https://github.com/user-attachments/assets/c3db47f4-5a83-4eb2-8249-ae38eff27d9b" />
-    - training page <img width="2880" height="1920" alt="cmnctrainingpage" src="https://github.com/user-attachments/assets/be582b9e-fc7c-4611-826c-702ad5f2b2e4" />
-
+    - home page <img width="2878" height="1690" alt="HomePage" src="https://github.com/user-attachments/assets/ecd329d1-6a70-42b0-a712-de741093cde8" />
+    - contact us page <img width="2878" height="1090" alt="ContactUsPage" src="https://github.com/user-attachments/assets/6998f58d-b6fa-4bd2-b4dc-4b4897a27f60" />
+    - training page <img width="2856" height="1782" alt="TraningPage" src="https://github.com/user-attachments/assets/dd53fb3e-5e30-40f2-ad3e-0dae7587f760" />
 
 ### Credits
   - The England Netball logo was taken from [England Netball's Engage Website](https://engage.englandnetball.co.uk/EnglandNetball)
@@ -142,7 +140,6 @@ It will also provide an introduction into the current Manchester Evening Netball
   - Bootstrap
   - Google Calendar
   - favicon.io (https://favicon.io/favicon-converter/) used to create the favicon
-
 
 ### logo's
   - CMNC Logo
