@@ -73,7 +73,10 @@ The comnc website is for all netballers to learn about the history of the club. 
   - CMNC Logo
 <img width="179" height="179" alt="cmnc-logo" src="https://github.com/user-attachments/assets/ba6e9c1f-66e7-41a3-a487-083f9bb88864" />
   - MENL Logo
+<img width="100" height="101" alt="MENLLogo" src="https://github.com/user-attachments/assets/444345ef-2ad9-4240-940c-7a8a5514a6c9" />
   - England Netball Logo
+<img width="150" height="150" alt="ENLogo" src="https://github.com/user-attachments/assets/92ff5f5b-1376-4f25-9321-4581b368c02d" />
+
 ### Testing
     - Manual Testing
     - User Story Testing
@@ -97,36 +100,6 @@ The comnc website is for all netballers to learn about the history of the club. 
   - favicon.io (https://favicon.io/favicon-converter/) used to create the favicon
 
 
-
-
-## Structure
-
-## Skeleton
-ease of navigation, not too many things on each page/section, but the ability to navigate to the wanted area with ease
-## Surface
-using the menu list to navigate to the different sections with ease
-
-
-
-## user storiy 1
-story
-- As an existing Netball player and having seen other clubs with their own wesite to promote themselves, I want to create a webpage dedicated to my club.
-
-Accpetance Criteria:
-- to provide details of the club
-- to provide current training sessions
-- to provide a monthly view of training sessions.
-- to provide an area to contact us for more information 
-
-## user story 2
-story
-- As a new netball player to Manchester I would like to be able to see what Netball clubs train on which day.
-Acceptance Criteria:
-- to show details of the club and it's history
-- to show details of training provided by the club
-- to show details of how to contact the club
-- to show details of where the training is
-- to show details of other / affiliated netball around Manchester
 
 
 ## testing
