@@ -78,14 +78,39 @@ The comnc website is for all netballers to learn about the history of the club. 
 <img width="150" height="150" alt="ENLogo" src="https://github.com/user-attachments/assets/92ff5f5b-1376-4f25-9321-4581b368c02d" />
 
 ### Testing
-    - Manual Testing
-    - User Story Testing
-    - Validator Testing
-    - Lighthouse Testing
-    - Browser Compatibility
-    - Responsiveness Testing
-    - Bugs Fixed
-    - Known Issues
+  - Manual Testing
+    - tested pages on local build of visual studio
+      - loaded Home page: checked link to engage works, and navigation menu works ensured menus were responsive to resizing
+      - loaded Contact Us page: checked form is available and can reset the form, and click on send and navigation menu works ensured menus were responsive to resizing
+      - loaded Training page: checked calendar is visible and can see future/past training events within the month, ensure the list of training is available on the right sidde and navigation menu works ensured menus were responsive to resizing
+    - tested pages on pre-release version of website
+      - loaded Home page: checked link to engage works, and navigation menu works ensured menus were responsive to resizing
+      - loaded Contact Us page: checked form is available and can reset the form, and click on send and navigation menu works ensured menus were responsive to resizing
+      - loaded Training page - checked calendar is visible and can see future/past training events within the month, ensure the list of training is available on the right sidde and navigation menu works ensured menus were responsive to resizing
+    - test live page to ensure there are no broken links
+      - loaded Home page: checked link to engage works, and navigation menu works ensured menus were responsive to resizing
+      - loaded Contact Us page: checked form is available and can reset the form, and click on send and navigation menu works ensured menus were responsive to resizing
+      - loaded Training page: checked calendar is visible and can see future/past training events within the month, ensure the list of training is available on the right sidde and navigation menu works ensured menus were responsive to resizing
+  - User Story Testing
+  - Validator Testing
+    - HTML
+      - No errors were returned when passing through the official W3C validator
+    - CSS
+      - No errors were found when passing through the official (Jigsaw) validator
+  - Lighthouse Testing
+    - ?
+  - Browser Compatibility
+  - Responsiveness Testing
+    - loaded Home page: ensured menus were responsive to resizing
+    - loaded Contact Us page: ensured menus were responsive to resizing
+    - loaded Training page: ensured menus were responsive to resizing
+  - Bugs Fixed
+    - Original testing showed that menues were not responsive to resizing, resolved this by adding col
+  - Known Issues
+  - Screenshots of finished projects:
+    - home page <img width="2880" height="1908" alt="cmnchomepage" src="https://github.com/user-attachments/assets/cb491145-0a66-4ae4-a90f-4cb2efd437c9" />
+    - contact us page <img width="2880" height="1920" alt="cmnccontactuspage" src="https://github.com/user-attachments/assets/c3db47f4-5a83-4eb2-8249-ae38eff27d9b" />
+    - training page <img width="2880" height="1920" alt="cmnctrainingpage" src="https://github.com/user-attachments/assets/be582b9e-fc7c-4611-826c-702ad5f2b2e4" />
 
 ### Deployment
     - Deployment Steps
@@ -103,33 +128,17 @@ The comnc website is for all netballers to learn about the history of the club. 
 
 
 ## testing
-- tested pages on local build of visual studio
-    - loaded Home page - checked link to engage works, and navigation menu works ensured menus were responsive to resizing
-    - loaded Contact Us page - checked form is available and can reset the form, and click on send and navigation menu works ensured menus were responsive to resizing
-    - loaded Training page - checked calendar is visible and can see future/past training events within the month, ensure the list of training is available on the right sidde and navigation menu works ensured menus were responsive to resizing
-- tested pages on pre-release version of website
-    - loaded Home page - checked link to engage works, and navigation menu works ensured menus were responsive to resizing
-    - loaded Contact Us page - checked form is available and can reset the form, and click on send and navigation menu works ensured menus were responsive to resizing
-    - loaded Training page - checked calendar is visible and can see future/past training events within the month, ensure the list of training is available on the right sidde and navigation menu works ensured menus were responsive to resizing
-- test live page to ensure there are no broken links
-    - loaded Home page - checked link to engage works, and navigation menu works ensured menus were responsive to resizing
-    - loaded Contact Us page - checked form is available and can reset the form, and click on send and navigation menu works ensured menus were responsive to resizing
-    - loaded Training page - checked calendar is visible and can see future/past training events within the month, ensure the list of training is available on the right sidde and navigation menu works ensured menus were responsive to resizing
+
 
 - other tests:
       - navigation links are highlighted on the page you are on for all pages
       - checked both external links to Engage and MENL are working launching in a new tab
 ## screenshots of finished project
-- home page <img width="2880" height="1908" alt="cmnchomepage" src="https://github.com/user-attachments/assets/cb491145-0a66-4ae4-a90f-4cb2efd437c9" />
-- contact us page <img width="2880" height="1920" alt="cmnccontactuspage" src="https://github.com/user-attachments/assets/c3db47f4-5a83-4eb2-8249-ae38eff27d9b" />
-- training page <img width="2880" height="1920" alt="cmnctrainingpage" src="https://github.com/user-attachments/assets/be582b9e-fc7c-4611-826c-702ad5f2b2e4" />
+
 
 
 ## Validator Testing
-- HTML
-    - No errors were returned when passing through the official W3C validator
-- CSS
-    - No errors were found when passing through the official (Jigsaw) validator
+
 
 ## future notes for building on
 - Addition of Spond - which is a sports app that allows event planning and payments.
