@@ -102,12 +102,15 @@ The comnc website is for all netballers to learn about the history of the club. 
   - Lighthouse Testing
     - ?
   - Browser Compatibility
+    - tested on Google Chrome (Version 149.0.7827.55 (Official Build) (64-bit))
+    - tested on Microsoft Edge (Version 149.0.4022.62 (Official build) (64-bit))
   - Responsiveness Testing
     - loaded Home page: ensured menus were responsive to resizing
     - loaded Contact Us page: ensured menus were responsive to resizing
     - loaded Training page: ensured menus were responsive to resizing
   - Bugs Fixed
     - Original testing showed that menues were not responsive to resizing, resolved this by adding col
+    - Original testing showed that links were not opening in another window, added _blank to code to resolve
   - Known Issues
   - Screenshots of finished projects:
     - home page <img width="2880" height="1908" alt="cmnchomepage" src="https://github.com/user-attachments/assets/cb491145-0a66-4ae4-a90f-4cb2efd437c9" />
