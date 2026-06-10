@@ -94,6 +94,9 @@ The comnc website is for all netballers to learn about the history of the club. 
       - navigation links are highlighted on the page you are on for all pages
       - checked both external links to Engage and MENL are working launching in a new tab
   - User Story Testing
+    - Able to see CMNC website
+    - Able to view training sessions and where they are
+    - Ability to navigate to other websites to view information on other clubs within the country (Engage website)
   - Validator Testing
     - HTML
       - No errors were returned when passing through the official W3C validator
@@ -112,6 +115,7 @@ The comnc website is for all netballers to learn about the history of the club. 
     - Original testing showed that menues were not responsive to resizing, resolved this by adding col
     - Original testing showed that links were not opening in another window, added _blank to code to resolve
   - Known Issues
+    - Google calendar does not resize correctly
   - Screenshots of finished projects:
     - home page <img width="2880" height="1908" alt="cmnchomepage" src="https://github.com/user-attachments/assets/cb491145-0a66-4ae4-a90f-4cb2efd437c9" />
     - contact us page <img width="2880" height="1920" alt="cmnccontactuspage" src="https://github.com/user-attachments/assets/c3db47f4-5a83-4eb2-8249-ae38eff27d9b" />
