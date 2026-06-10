@@ -76,7 +76,7 @@ It will also provide an introduction into the current Manchester Evening Netball
   - interactive / more features on the contact us form
 
 ### Technologies Used
-- HTML5 was used to structure the 3 pages, using CSS to add styling to headings and the navigation bars which were designed using Bootstrap.  For version control and hosting I used Git and Github.  The training calendar was pulled directly from Google, I created a Google Training calendar and embedded it into the Traning web page
+- HTML5 was used to structure the 3 pages, using CSS to add styling to headings and the navigation bars which were designed using Bootstrap.  For version control and hosting I used Git and Github.  I used FavIcon for the small logo on the browser tab.  The training calendar was pulled directly from Google, I created a Google Training calendar and embedded it into the Traning web page
 
 ### Testing
   - Manual Testing
@@ -117,15 +117,24 @@ It will also provide an introduction into the current Manchester Evening Netball
     - Original testing showed that menues were not responsive to resizing, resolved this by adding col structure
     - Original testing showed that links were not opening in another window, added _blank to code to resolve
   - Known Issues
-  - Screenshots of finished projects:
+    - form does not currently send information as this is a first draft version without the backend coding to send the details, this form will be worked on in subsequent iterations of the website
+
+### Deployment
+    - Deployment Steps
+      1. Log into GitHub repository
+      2. Go to project (cmnc)
+      3. Using main branch go to Deployment section
+      4. Click on the github-pages (https://kat-richardson-77.github.io/cmnc/)
+    - Local Development Setup
+      - Using Visual Studio,  I installed the extension Live Server, open the folder, then rightclick on index.html and run with live server top open within your browser.
+    - Cloning the Repository
+
+
+### Screenshots of finished projects:
     - home page <img width="2880" height="1908" alt="cmnchomepage" src="https://github.com/user-attachments/assets/cb491145-0a66-4ae4-a90f-4cb2efd437c9" />
     - contact us page <img width="2880" height="1920" alt="cmnccontactuspage" src="https://github.com/user-attachments/assets/c3db47f4-5a83-4eb2-8249-ae38eff27d9b" />
     - training page <img width="2880" height="1920" alt="cmnctrainingpage" src="https://github.com/user-attachments/assets/be582b9e-fc7c-4611-826c-702ad5f2b2e4" />
 
-### Deployment
-    - Deployment Steps
-    - Local Development Setup
-    - Cloning the Repository
 
 ### Credits
   - The England Netball logo was taken from [England Netball's Engage Website](https://engage.englandnetball.co.uk/EnglandNetball)
@@ -133,11 +142,6 @@ It will also provide an introduction into the current Manchester Evening Netball
   - Bootstrap
   - Google Calendar
   - favicon.io (https://favicon.io/favicon-converter/) used to create the favicon
-
-
-### Deployment
-- To view the deployed website (https://kat-richardson-77.github.io/cmnc/)
-
 
 
 ### logo's
