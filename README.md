@@ -91,6 +91,8 @@ The comnc website is for all netballers to learn about the history of the club. 
       - loaded Home page: checked link to engage works, and navigation menu works ensured menus were responsive to resizing
       - loaded Contact Us page: checked form is available and can reset the form, and click on send and navigation menu works ensured menus were responsive to resizing
       - loaded Training page: checked calendar is visible and can see future/past training events within the month, ensure the list of training is available on the right sidde and navigation menu works ensured menus were responsive to resizing
+      - navigation links are highlighted on the page you are on for all pages
+      - checked both external links to Engage and MENL are working launching in a new tab
   - User Story Testing
   - Validator Testing
     - HTML
@@ -123,27 +125,3 @@ The comnc website is for all netballers to learn about the history of the club. 
   - Bootstrap
   - Google Calendar
   - favicon.io (https://favicon.io/favicon-converter/) used to create the favicon
-
-
-
-
-## testing
-
-
-- other tests:
-      - navigation links are highlighted on the page you are on for all pages
-      - checked both external links to Engage and MENL are working launching in a new tab
-## screenshots of finished project
-
-
-
-## Validator Testing
-
-
-## future notes for building on
-- Addition of Spond - which is a sports app that allows event planning and payments.
-- more interactive drop down menu
-- Add more features
-- More interactive contact us form to engage the user more
-- interactive / more features on the contact us form
-
