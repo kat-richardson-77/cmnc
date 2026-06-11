@@ -11,6 +11,13 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+#comfooter {
+    text-align:left;
+    color:pink;
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 #mtext {
     text-align: left;
     color:black;

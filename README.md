@@ -3,7 +3,7 @@
 ## Table of Contents
 
 ### Introduction/Description
-The project is for a website for people interested in netball to find details of training sessions, local leages and England Netballs govening body
+The project is for a website for people interested in netball to find details of training sessions, local leages and England Netball's govening body
 
 ### Project Overview
 The cmnc website is for all people interested in netball to learn about the history of the club. Find details on training sessions run by City of Manchester, and to find out about all our policies.  
@@ -12,14 +12,16 @@ It will also provide an introduction into the current Manchester Evening Netball
 ### User Experience (UX)
 - Project Goals
   - create a unique City of Manchester Netball Club website
-  - show training availability
+  - show training sessions and locations
   - show history of the club, and it's growth
+  - have a contact us for more information
 
 - User Stories
   - user storiy 1
     - As a netball player I would like to see a website with a history of a club, and be able to contact them for more information.
     - Accpetance Criteria:
      - to provide details of the club
+     - to provide the background of the clubs beginnings
      - to provide an area to contact us for more information
   - user story 2
     - As a netball player I would like to be able to see training sessions
@@ -36,7 +38,7 @@ It will also provide an introduction into the current Manchester Evening Netball
     - to show details of other / affiliated netball around Manchester
 
 - Design Choices
-  - I utilised the clubs main colours to create a header bar with the club name, logo and menu items for easy navigation.  I also decided to keep the main background plain in order to be able to read information easily to keep a clean and neat visual setting.
+  - I utilised the clubs main colours to create a header bar with the club name, logo and menu items for easy navigation.  I also decided to keep the main background plain in order to be able to read information easily to keep a clean and neat visual setting.  The footer details also follow the clubs colour schemes
 - Colour Scheme
   - City of Manchester's main colours are Black and Pink.  I also used a white back ground with black lettering to help the website have a clean and professional look
 - Typography
