@@ -3,18 +3,18 @@
 ## Table of Contents
 
 ### Introduction/Description
-The project is for a website for people interested in netball to find details of training sessions, local leages and England Netball's govening body
+This project is a website for people interested in netball to find details of training sessions, local leagues and England Netball's governing body
 
 ### Project Overview
-The cmnc website is for all people interested in netball to learn about the history of the club. Find details on training sessions run by City of Manchester, and to find out about all our policies.  
+The CMNC website is for all people interested in netball to learn about the history of the club. Find details on training sessions run by City of Manchester, and to find and access our policies.  
 It will also provide an introduction into the current Manchester Evening Netball league, and links to the governing body of Netball: England Netball.
 
 ### User Experience (UX)
 - Project Goals
   - create a unique City of Manchester Netball Club website
   - show training sessions and locations
-  - show history of the club, and it's growth
-  - have a contact us for more information
+  - show history of the club and it's growth
+  - have a 'ContactUs' section for more information
 
 - User Stories
   - user storiy 1
@@ -38,11 +38,11 @@ It will also provide an introduction into the current Manchester Evening Netball
     - to show details of other / affiliated netball around Manchester
 
 - Design Choices
-  - I utilised the clubs main colours to create a header bar with the club name, logo and menu items for easy navigation.  I also decided to keep the main background plain in order to be able to read information easily to keep a clean and neat visual setting.  The footer details also follow the clubs colour schemes
+  - I used the club's main colours to create a header bar with the club name, logo and menu items for easy navigation.  I kept the main background plain to improve readability and maintain a clean neat visual setting.  The footer also follows the club's colour schemes
 - Colour Scheme
-  - City of Manchester's main colours are Black and Pink.  I also used a white back ground with black lettering to help the website have a clean and professional look
+  - City of Manchester's main colours are Black and Pink.  I also used a white background with black lettering to give the website a clean and professional look
 - Typography
-  - I have used Verdana, Geneva, Tahoma, sans-serif font family throughout the website, in both text and headings as this is a widely used font with easy to ready definition
+  - I used Verdana, Geneva, Tahoma, sans-serif font family in font-size meduium throughout the website, in both text and headings as this is a widely used font with easy to ready definition
 - Information Architecture
   - Main page:
     - Name and logo
@@ -71,35 +71,38 @@ It will also provide an introduction into the current Manchester Evening Netball
   - Calendar
   - list of training sessions
 - Future Features
-  - Addition of Spond - which is a sports app that allows event planning and payments.
-  - more interactive drop down menu
-  - Add more features
+  - Addition of Spond a sports app that allows event planning and payments.
+  - more interactive drop-down menu
+  - Add more features including a gallery.
   - More interactive contact us form to engage the user more
   - interactive / more features on the contact us form
 
 ### Technologies Used
-- HTML5 was used to structure the 3 pages, using CSS to add styling to headings and the navigation bars which were designed using Bootstrap.  For version control and hosting I used Git and Github.  I used FavIcon for the small logo on the browser tab.  The training calendar was pulled directly from Google, I created a Google Training calendar and embedded it into the Traning web page
+- HTML5 was used to structure the three pages, CSS added styling to headings and the navigation bars which were designed using Bootstrap.  For version control and hosting I used Git and Github.  I used FavIcon for the small logo on the browser tab.  The training calendar is Google's own which I created a Google Training calendar and embedded it into the Traning page
 
 ### Testing
   - Manual Testing
-    - tested pages on local build of visual studio
-      - loaded Home page: checked link to engage works, and navigation menu works ensured menus were responsive to resizing
-      - loaded Contact Us page: checked form is available and can reset the form, and click on send and navigation menu works ensured menus were responsive to resizing
-      - loaded Training page: checked calendar is visible and can see future/past training events within the month, ensure the list of training is available on the right sidde and navigation menu works ensured menus were responsive to resizing
+    - Tested pages on local build of Visual Studio
+      - Home page: Loaded and checked link to engage work, and navigation menu works ensured menus were responsive to resizing
+      - Contact Us page: Loaded and checked form is available and can reset the form, and click on send and navigation menu works ensured menus were responsive to resizing
+      - Training page: Loaded and checked calendar is visible and can see future/past training events within the month, ensure the list of training is available on the right side and navigation menu works ensured menus were responsive to resizing
     - tested pages on pre-release version of website
-      - loaded Home page: checked link to engage works, and navigation menu works ensured menus were responsive to resizing
-      - loaded Contact Us page: checked form is available and can reset the form, and click on send and navigation menu works ensured menus were responsive to resizing
-      - loaded Training page - checked calendar is visible and can see future/past training events within the month, ensure the list of training is available on the right sidde and navigation menu works ensured menus were responsive to resizing
+      - Home page: Loaded and checked link to engage work, and navigation menu works ensured menus were responsive to resizing
+      - Contact Us page: Loaded and checked form is available and can reset the form, and click on send and navigation menu works ensured menus were responsive to resizing
+      - Training page: Loaded and checked calendar is visible and can see future/past training events within the month, ensure the list of training is available on the right side and navigation menu works ensured menus were responsive to resizing
     - test live page to ensure there are no broken links
-      - loaded Home page: checked link to engage works, and navigation menu works ensured menus were responsive to resizing
-      - loaded Contact Us page: checked form is available and can reset the form, and click on send and navigation menu works ensured menus were responsive to resizing
-      - loaded Training page: checked calendar is visible and can see future/past training events within the month, ensure the list of training is available on the right side and navigation menu works ensured menus were responsive to resizing
-      - navigation links are highlighted on the page you are on for all pages
-      - checked both external links to Engage and MENL are working launching in a new tab
+      - Home page: Loaded and checked link to engage work, and navigation menu works ensured menus were responsive to resizing
+      - Contact Us page: Loaded and checked form is available and can reset the form, and click on send and navigation menu works ensured menus were responsive to resizing
+      - Training page: Loaded and checked calendar is visible and can see future/past training events within the month, ensure the list of training is available on the right side and navigation menu works ensured menus were responsive to resizing
+      - Navigation links are highlighted on the active page across all pages
+      - Checked both external links to Engage and MENL are working launching in a new tab
   - User Story Testing
-    - user story 1.  As a netball player I would like to see a website with a history of a club, and be able to contact them for more information.  How this was met: the website provided a history of the club, and provided a contact us for more information section.
-    - user story 2. As a netball player I would like to be able to see training sessions.  How this was met: the website provided a training sessions page with details in a calendar and list of traning sessions and locations.
-    - user story 3. As a new netball player to Manchester I would like to be able to see what Netball clubs train on which day.  How this was met: The home page shows details of the club and it's history, the contact us page shows details of how to contact the club, the website provided a training sessions page with details in a calendar and list of traning sessions and locations.  There are two clickable links to show details of other / affiliated netball around Manchester.
+    - user story 1:  As a netball player I would like to see a website with a history of a club, and be able to contact them for more information.  
+    How this was met: the website provided a history of the club, and provided a contact us for more information section.
+    - user story 2: As a netball player I would like to be able to see training sessions.  
+    How this was met: the website provided a training sessions page with details in a calendar and list of traning sessions and locations.
+    - user story 3: As a new netball player to Manchester I would like to be able to see what Netball clubs train on which day.  
+    How this was met: The home page shows details of the club and it's history, the contact us page shows details of how to contact the club, the website provided a training sessions page with details in a calendar and list of traning sessions and locations.  There are two clickable links to show details of other / affiliated netball around Manchester.
   - Validator Testing
     - HTML
       - No errors were returned when passing through the official W3C validator
@@ -116,10 +119,11 @@ It will also provide an introduction into the current Manchester Evening Netball
   - Responsiveness Testing
     The website was tested with at multiple screen widths to ensure the layout adjusted accordingly.
   - Bugs Fixed
-    - Original testing showed that menues were not responsive to resizing, resolved this by adding col structure
+    - Original testing showed that menus were not responsive to resizing, resolved this by adding col structure
     - Original testing showed that links were not opening in another window, added _blank to code to resolve
   - Known Issues
     - form does not currently send information as this is a first draft version without the backend coding to send the details, this form will be worked on in subsequent iterations of the website
+    - Google Calendar is not as responsive as I would like it to be.
 
 ### Deployment
     - Deployment Steps

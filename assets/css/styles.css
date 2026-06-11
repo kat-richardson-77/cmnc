@@ -2,6 +2,7 @@
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
 }
 
 #com {
@@ -9,6 +10,7 @@ body {
     color:pink;
     background-color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
 }
 
 #comfooter {
@@ -16,6 +18,7 @@ body {
     color:pink;
     background-color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:medium;
 }
 
 #mtext {
