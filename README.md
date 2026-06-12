@@ -96,6 +96,7 @@ It will also provide an introduction into the current Manchester Evening Netball
       - Training page: Loaded and checked calendar is visible and can see future/past training events within the month, ensure the list of training is available on the right side and navigation menu works ensured menus were responsive to resizing
       - Navigation links are highlighted on the active page across all pages
       - Checked both external links to Engage and MENL are working launching in a new tab
+    - Mobile testing:  Opened on a mobile phone to check menu collasped and test was still visible
   - User Story Testing
     - user story 1:  As a netball player I would like to see a website with a history of a club, and be able to contact them for more information.  
     How this was met: the website provided a history of the club, and provided a contact us for more information section.
@@ -106,13 +107,16 @@ It will also provide an introduction into the current Manchester Evening Netball
   - Validator Testing
     - HTML
       - No errors were returned when passing through the official W3C validator
+      [HPValidator](https://github.com/kat-richardson-77/cmnc/wiki/CMNC-Pictures).
+      [CUValidator](https://github.com/kat-richardson-77/cmnc/wiki/CMNC-Pictures).
+      [TValidator](https://github.com/kat-richardson-77/cmnc/wiki/CMNC-Pictures).
     - CSS
       - No errors were found when passing through the official (Jigsaw) validator
   - Lighthouse Testing
-    - The homepage was tested for Website using Chrome Lighthouse 
-      <img width="946" height="220" alt="Lighthouse10062026" src="https://github.com/user-attachments/assets/5d90b758-dbe0-4683-a13a-5ad36991dd54" />
-    - The homepage was tested for mobile using Chrome Lighthouse 
-      <img width="880" height="288" alt="LighthouseMobile10062026" src="https://github.com/user-attachments/assets/459fae8a-88f8-4455-b0b1-44055f52de40" />
+    - The homepage was tested for Website using Chrome Lighthouse for performance, accessability, Best Practices and SEO
+      [Lighthouse Website](https://github.com/kat-richardson-77/cmnc/wiki/CMNC-Pictures).
+    - The homepage was tested for mobile using Chrome Lighthouse for performance, accessability, Best Practices and SEO
+       [Lighthouse Mobile](https://github.com/kat-richardson-77/cmnc/wiki/CMNC-Pictures).
   - Browser Compatibility
     - tested on Google Chrome (Version 149.0.7827.55 (Official Build) (64-bit))
     - tested on Microsoft Edge (Version 149.0.4022.62 (Official build) (64-bit))
@@ -140,6 +144,8 @@ It will also provide an introduction into the current Manchester Evening Netball
 [HomePage Test Screenshot](https://github.com/kat-richardson-77/cmnc/wiki/CMNC-Pictures).
 [ContactUs Test Screenshot](https://github.com/kat-richardson-77/cmnc/wiki/CMNC-Pictures).
 [Training Test Screenshot](https://github.com/kat-richardson-77/cmnc/wiki/CMNC-Pictures).
+[Phone1](https://github.com/kat-richardson-77/cmnc/wiki/CMNC-Pictures).
+[Phone2](https://github.com/kat-richardson-77/cmnc/wiki/CMNC-Pictures).
 
 ### Credits
   - The England Netball logo was taken from [England Netball's Engage Website](https://engage.englandnetball.co.uk/EnglandNetball)
