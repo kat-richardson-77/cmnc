@@ -124,6 +124,7 @@ It will also provide an introduction into the current Manchester Evening Netball
   - Known Issues
     - form does not currently send information as this is a first draft version without the backend coding to send the details, this form will be worked on in subsequent iterations of the website
     - Google Calendar is not as responsive as I would like it to be.
+    - Google Calendar has it's own css, this needs to be restructured 
 
 ### Deployment
     - Deployment Steps
