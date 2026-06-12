@@ -62,7 +62,7 @@ It will also provide an introduction into the current Manchester Evening Netball
 
 ### Wireframes
 
-<img width="3024" height="4032" alt="cmnc-design" src="https://github.com/user-attachments/assets/aed14223-7bbd-490b-99cb-abaee6a884c6" />
+[WireFrame Website design](https://github.com/kat-richardson-77/cmnc/wiki/CMNC-Pictures).
 
 ### Features
 - Existing Features
@@ -136,9 +136,9 @@ It will also provide an introduction into the current Manchester Evening Netball
     - Cloning the Repository
 
 ### Screenshots of finished projects:
-    - home page <img width="2878" height="1690" alt="HomePage" src="https://github.com/user-attachments/assets/ecd329d1-6a70-42b0-a712-de741093cde8" />
-    - contact us page <img width="2878" height="1090" alt="ContactUsPage" src="https://github.com/user-attachments/assets/6998f58d-b6fa-4bd2-b4dc-4b4897a27f60" />
-    - training page <img width="2856" height="1782" alt="TraningPage" src="https://github.com/user-attachments/assets/dd53fb3e-5e30-40f2-ad3e-0dae7587f760" />
+[HomePage Test Screenshot](https://github.com/kat-richardson-77/cmnc/wiki/CMNC-Pictures).
+[ContactUs Test Screenshot](https://github.com/kat-richardson-77/cmnc/wiki/CMNC-Pictures).
+[Training Test Screenshot](https://github.com/kat-richardson-77/cmnc/wiki/CMNC-Pictures).
 
 ### Credits
   - The England Netball logo was taken from [England Netball's Engage Website](https://engage.englandnetball.co.uk/EnglandNetball)
@@ -148,9 +148,6 @@ It will also provide an introduction into the current Manchester Evening Netball
   - favicon.io (https://favicon.io/favicon-converter/) used to create the favicon
 
 ### logo's
-  - CMNC Logo
-<img width="179" height="179" alt="cmnc-logo" src="https://github.com/user-attachments/assets/ba6e9c1f-66e7-41a3-a487-083f9bb88864" />
-  - MENL Logo
-<img width="100" height="101" alt="MENLLogo" src="https://github.com/user-attachments/assets/444345ef-2ad9-4240-940c-7a8a5514a6c9" />
-  - England Netball Logo
-<img width="150" height="150" alt="ENLogo" src="https://github.com/user-attachments/assets/92ff5f5b-1376-4f25-9321-4581b368c02d" />
+ [CMNCLogo](https://github.com/kat-richardson-77/cmnc/wiki/CMNC-Pictures).
+ [MENLLogo](https://github.com/kat-richardson-77/cmnc/wiki/CMNC-Pictures).
+ [ENLogo](https://github.com/kat-richardson-77/cmnc/wiki/CMNC-Pictures).
