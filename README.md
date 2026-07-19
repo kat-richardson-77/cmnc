@@ -15,27 +15,38 @@ It will also provide an introduction into the current Manchester Evening Netball
   - show training sessions and locations
   - show history of the club and it's growth
   - have a 'ContactUs' section for more information
+    - addition for ms2
+      - showcase the club with photos from training sessions, tournaments and social events
 
 - User Stories
-  - user storiy 1
+  - user storiy 1 (ms1)
     - As a netball player I would like to see a website with a history of a club, and be able to contact them for more information.
     - Accpetance Criteria:
      - to provide details of the club
      - to provide the background of the clubs beginnings
      - to provide an area to contact us for more information
-  - user story 2
+  - user story 2 (ms1)
     - As a netball player I would like to be able to see training sessions
     - Acceptance Criteria:
       - provide dates for training sessions
       - provide details of the training sessions
-  - user story 3
+  - user story 3 (ms1)
     - As a new netball player to Manchester I would like to be able to see what Netball clubs train on which day.
-  - Acceptance Criteria:
-    - to show details of the club and it's history
-    - to show details of training provided by the club
-    - to show details of how to contact the club
-    - to show details of where the training is
-    - to show details of other / affiliated netball around Manchester
+    - Acceptance Criteria:
+      - to show details of the club and it's history
+      - to show details of training provided by the club
+      - to show details of how to contact the club
+      - to show details of where the training is
+      - to show details of other / affiliated netball around Manchester
+  
+  - user story 4 (ms2)
+    - As a netball player I would love to see pictures of training sessions
+  - user story 5 (ms2)
+    - As a netball player I would love to see pictures of tournaments
+  - user story 6 (ms2)
+    - As a netball player I would love to see pictures of the social aspect of the club
+  - user story 7 (ms2)
+    - As a potential new player I would like to have a more interactive form that will let me know that my message has been received
 
 - Design Choices
   - I used the club's main colours to create a header bar with the club name, logo and menu items for easy navigation.  I kept the main background plain to improve readability and maintain a clean neat visual setting.  The footer also follows the club's colour schemes
