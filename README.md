@@ -15,27 +15,56 @@ It will also provide an introduction into the current Manchester Evening Netball
   - show training sessions and locations
   - show history of the club and it's growth
   - have a 'ContactUs' section for more information
+    - addition for ms2
+      - showcase the club with photos from training sessions, tournaments and social events
 
 - User Stories
-  - user storiy 1
+  - user storiy 1 (ms1)
     - As a netball player I would like to see a website with a history of a club, and be able to contact them for more information.
     - Accpetance Criteria:
      - to provide details of the club
      - to provide the background of the clubs beginnings
      - to provide an area to contact us for more information
-  - user story 2
+  - user story 2 (ms1)
     - As a netball player I would like to be able to see training sessions
     - Acceptance Criteria:
       - provide dates for training sessions
       - provide details of the training sessions
-  - user story 3
+  - user story 3 (ms1)
     - As a new netball player to Manchester I would like to be able to see what Netball clubs train on which day.
-  - Acceptance Criteria:
-    - to show details of the club and it's history
-    - to show details of training provided by the club
-    - to show details of how to contact the club
-    - to show details of where the training is
-    - to show details of other / affiliated netball around Manchester
+    - Acceptance Criteria:
+      - to show details of the club and it's history
+      - to show details of training provided by the club
+      - to show details of how to contact the club
+      - to show details of where the training is
+      - to show details of other / affiliated netball around Manchester
+  
+  - user story 4 (ms2)
+    - As a netball player I would love to see pictures of training sessions
+    - Acceptance Criteria:
+      - to show pictures of training sessions
+      - to show training sessions broken down into years
+      - to show training sessions broken down by months
+      - to ensure they are labled
+  - user story 5 (ms2)
+    - As a netball player I would love to see pictures of tournaments
+      - Acceptance Criteria:
+        - to show pictures of tournaments
+        - to show tournaments broken down into years
+        - to show tournaments broken down by months
+        - to ensure they are labled
+  - user story 6 (ms2)
+    - As a netball player I would love to see pictures of the social aspect of the club
+      - Acceptance Criteria:
+        - to show pictures of social events
+        - to show social events broken down into years
+        - to show social events broken down by months
+        - to ensure they are labled
+  - user story 7 (ms2)
+    - As a potential new player I would like to have a more interactive form that will let me know that my message has been received
+      - Acceptance Criteria:
+        - to ensure that all sections required show a message to be completed
+        - to display a message to confirm that the enquiry has been sent
 
 - Design Choices
   - I used the club's main colours to create a header bar with the club name, logo and menu items for easy navigation.  I kept the main background plain to improve readability and maintain a clean neat visual setting.  The footer also follows the club's colour schemes
@@ -56,13 +85,19 @@ It will also provide an introduction into the current Manchester Evening Netball
     - footer
   - Training page:
     - name and logo
-    - calendar
-    - list of training sessions
+    - calendar [in the future addition of bespoke calendar]
+    - list of training sessions 
     - footer
+  - Gallery page (ms2):
+    - name and logo
+    - section 1:  Training sessions
+    - section 2:  Tournaments
+    - section 3:  Social events
 
 ### Wireframes
 
 [WireFrame Website design](https://github.com/kat-richardson-77/cmnc/wiki/CMNC-Pictures).
+[wireframe for updated website to include page for photos and updated forms]
 
 ### Features
 - Existing Features
@@ -104,6 +139,10 @@ It will also provide an introduction into the current Manchester Evening Netball
     How this was met: the website provided a training sessions page with details in a calendar and list of traning sessions and locations.
     - user story 3: As a new netball player to Manchester I would like to be able to see what Netball clubs train on which day.  
     How this was met: The home page shows details of the club and it's history, the contact us page shows details of how to contact the club, the website provided a training sessions page with details in a calendar and list of traning sessions and locations.  There are two clickable links to show details of other / affiliated netball around Manchester.
+    - user story 4: testing goes here
+    - user story 5: testing goes here
+    - user story 6: testing goes here
+    - user story 7: testing goes here
   - Validator Testing
     - HTML
       - No errors were returned when passing through the official W3C validator
@@ -131,7 +170,7 @@ It will also provide an introduction into the current Manchester Evening Netball
     - Google Calendar has it's own css, this needs to be restructured 
 
 ### Deployment
-    - Deployment Steps
+    - Deployment Steps ms2 - more in depth steps to go here including creating the branch and changing vs to correct branch
       1. Log into GitHub repository
       2. Go to project (cmnc)
       3. Using main branch go to Deployment section
