@@ -169,6 +169,14 @@ It will also provide an introduction into the current Manchester Evening Netball
     - Google Calendar is not as responsive as I would like it to be.
     - Google Calendar has it's own css, this needs to be restructured 
 
+
+### Clone Repository
+    - Open Github and navigate to the main repository page
+    - Go to Code --> HTTPS --> copy the link
+    - Open Git Bash (Start --> Git Bash --> Open)
+    - pwd to check the directory
+    - git clone [paste]
+    - enter
 ### Deployment
     - Deployment Steps ms2 - more in depth steps to go here including creating the branch and changing vs to correct branch
       1. Log into GitHub repository
