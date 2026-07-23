@@ -28,6 +28,20 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
 /*Navbar*/
 #navbar {
     background-color: black;
@@ -36,3 +50,12 @@ body {
 #navbar .logo {
     width: 40px;
 }
+
+/*addition for carousel*/
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+    width: 25%;
+    margin: auto;
+  } 
+
+  
