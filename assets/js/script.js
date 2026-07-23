@@ -9,9 +9,9 @@
   
 
 // button click for clear form
-    document.getElementById("btnReset").addEventListener("click", function() {
-        document.getElementById("myMessageForm").reset();
-    });
+//    document.getElementById("btnReset").addEventListener("click", function() {
+ //       document.getElementById("myMessageForm").reset();
+  //  });
 
 // gather form data and send to email
 
@@ -21,36 +21,17 @@
 
 // carousel functionality
 // Activate the carousel
-let currentSlide = 0;
+let slideIndex = 0;
+showSlides();
 
-function startSlider() {
-    let imageCount = document.querySelectorAll("img");
-    let images = document.querySelector("ul");
-
-    if (imageCount.length === 0) {
-        imageCount = document.querySelectorAll("img");
-        images.style.transform = "translateX(0px)";
-        return;
-    }
-    
-    images.style.transform = 'translateX(-${currentSlide * 300}px)';
-
-    //remove active class from all dots
-    let dots = document.querySelectorAll(".dot");
-    dots.forEach((dot) => {
-        dot.classList.remove("active");
-    });
-
-    //add active class to current dot
-    dots[currentSlide].classList.add("active");
-
-    if (currentSlide === imageCount.length - 1) {
-        currentSlide = 0;
-    } else {
-        currentSlide++;
-    }
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 5000); // Change image every 5 seconds
 }
-
-setInterval(() => {
-    startSlider();
-}, 3000);
