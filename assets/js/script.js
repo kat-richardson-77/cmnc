@@ -1,55 +1,18 @@
 // Form functionality
 // form validation
 
+//document.getElementById("btnSubmit").addEventListener("click", validateForm);
+    
 
-function validateForm() {
     // Add form validation logic here
     //validate name, email, has position been checked, message is not empty
-    let name = document.forms["myMessageForm"]["your-name"].value;
-    if (name === "") {
-        alert("Please enter your name.");
-        return false;
-    }
-    let email = document.forms["myMessageForm"]["email"].value;
-    let message = document.forms["myMessageForm"]["message"].value;
-    let positions = document.forms["myMessageForm"]["positions"];
-    let positionChecked = false;
-
-    // Check if at least one position is selected
-    for (let i = 0; i < positions.length; i++) {
-        if (positions[i].checked) {
-            positionChecked = true;
-            break;
-        }
-    }
-
-    // Validate each field
-    if (name === "") {
-        alert("Please enter your name.");
-        return false;
-    }
-    if (email === "") {
-        alert("Please enter your email.");
-        return false;
-    }
-    if (!positionChecked) {
-        alert("Please select at least one position.");
-        return false;
-    }
-    if (message === "") {
-        alert("Please enter a message.");
-        return false;
-    }
-
-    return true;
-}
+  
 
 // button click for clear form
-//function clearForm() {
-    document.getElementById("btnreset").addEventListener("click", function() {
+    document.getElementById("btnReset").addEventListener("click", function() {
         document.getElementById("myMessageForm").reset();
     });
-//}
+
 // gather form data and send to email
 
 // button click for submit form
@@ -58,3 +21,36 @@ function validateForm() {
 
 // carousel functionality
 // Activate the carousel
+let currentSlide = 0;
+
+function startSlider() {
+    let imageCount = document.querySelectorAll("img");
+    let images = document.querySelector("ul");
+
+    if (imageCount.length === 0) {
+        imageCount = document.querySelectorAll("img");
+        images.style.transform = "translateX(0px)";
+        return;
+    }
+    
+    images.style.transform = 'translateX(-${currentSlide * 300}px)';
+
+    //remove active class from all dots
+    let dots = document.querySelectorAll(".dot");
+    dots.forEach((dot) => {
+        dot.classList.remove("active");
+    });
+
+    //add active class to current dot
+    dots[currentSlide].classList.add("active");
+
+    if (currentSlide === imageCount.length - 1) {
+        currentSlide = 0;
+    } else {
+        currentSlide++;
+    }
+}
+
+setInterval(() => {
+    startSlider();
+}, 3000);

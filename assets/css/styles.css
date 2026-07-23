@@ -3,6 +3,9 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: medium;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #com {
@@ -26,6 +29,13 @@ body {
     color: black;
     font-size: medium;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
 }
 
 .row {
@@ -52,10 +62,49 @@ body {
 }
 
 /*addition for carousel*/
-  .carousel-inner > .item > img,
-  .carousel-inner > .item > a > img {
-    width: 25%;
-    margin: auto;
-  } 
+h4 {
+    font-size: 26px;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 30px;
+}
 
-  
+ul {
+    display: flex;
+    list-style: none;
+    transition: all 1s ease;
+}
+
+.slider {
+    display: flex;
+    overflow: hidden;
+    width: 300px;
+    height: 200px;
+    border-radius: 3px;
+    box-shadow: 3px 20px 15px rgba(0, 0, 0, 0.5);
+    align-items: center;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+    border-radius: 3px;
+}
+
+.pagination-dots {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.dot {
+    width: 20px;
+    height: 6px;
+    border-radius: 5px;
+    background-color: black;
+}
+
+.dot.active {
+    background-color: pink;
+}
