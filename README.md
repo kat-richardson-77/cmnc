@@ -174,18 +174,23 @@ It will also provide an introduction into the current Manchester Evening Netball
     - Open Github and navigate to the main repository page
     - Go to Code --> HTTPS --> copy the link
     - Open Git Bash (Start --> Git Bash --> Open)
-    - pwd to check the directory
+    - pwd to check the directory the cloned repository it was going into.
     - git clone [paste]
     - enter
-### Deployment
-    - Deployment Steps ms2 - more in depth steps to go here including creating the branch and changing vs to correct branch
-      1. Log into GitHub repository
-      2. Go to project (cmnc)
-      3. Using main branch go to Deployment section
-      4. Click on the github-pages (https://kat-richardson-77.github.io/cmnc/)
-    - Local Development Setup
-      - Using Visual Studio,  I installed the extension Live Server, open the folder, then rightclick on index.html and run with live server top open within your browser.
-    - Cloning the Repository
+
+###  Local Development Setup
+     - Using Visual Studio,  I installed the extension Live Server, open the folder, then rightclick on index.html and run with live server top open within your browser.
+     
+### Live Deployment
+      1. Log into GitHub repository on website (https://github.com)
+      2. Navigate to current project being worked on cmnc
+      3. Using the Main branch and that this is using the latest code version go to Release section
+      4. Draft a new Release
+      5. Create a new tag I am using sequential tag numbers for mine
+      6. Add in values for the Title and click Generate Release Notes
+      7. Save as Draft and review
+      8. Click on the github-pages (https://kat-richardson-77.github.io/cmnc/)
+
 
 ### Screenshots of finished projects:
 [HomePage Test Screenshot](https://github.com/kat-richardson-77/cmnc/wiki/CMNC-Pictures).
