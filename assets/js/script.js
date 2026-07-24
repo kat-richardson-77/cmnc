@@ -1,13 +1,15 @@
+//load javascript
+document.addEventListener("DOMContentLoaded",function(){});
 //Form functionality
 
-
 // button click for clear form
-
 
 // gather form data and send to email
 
 // button click for submit form
-document.addEventListener("DOMContentLoaded",function(){});
+document.getElementById("myMessageForm").addEventListener("submit", submitForm);
+
+function submitForm(){
 const form = document.getElementById("myMessageForm");
 const submitButton = document.getElementById("btnSubmit");
 const resetButton = document.getElementById("btnReset");
@@ -33,9 +35,7 @@ submitButton.addEventListener("click", () => {
     //display the form data
     outputDiv.innerHTML = '<h4>Form has been submitted successfully!</h3><p>Name ${name}</p>';
     
-})
-
-
+}); }
 
 // carousel functionality
 // Activate the carousel
@@ -51,6 +51,6 @@ function showSlides() {
   }
   slideIndex++;
   if (slideIndex > slides.length) {slideIndex = 1}
-  slides[slideIndex-1]//.style.display = "block";
+  slides[slideIndex-1].style.display = "block";
   setTimeout(showSlides, 3000); // Change image every 3 seconds
 }
