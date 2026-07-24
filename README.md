@@ -97,7 +97,9 @@ It will also provide an introduction into the current Manchester Evening Netball
 ### Wireframes
 
 [WireFrame Website design](https://github.com/kat-richardson-77/cmnc/wiki/CMNC-Pictures).
-[wireframe for updated website to include page for photos and updated forms]
+<img width="1312" height="2126" alt="Wireframe1" src="https://github.com/user-attachments/assets/39e63d2f-b7f1-439b-8960-52025ff5befe" />
+<img width="1302" height="1978" alt="Wireframe2" src="https://github.com/user-attachments/assets/a6968953-a563-4a6a-b21c-abc06936fd6a" />
+
 
 ### Features
 - Existing Features
@@ -139,10 +141,10 @@ It will also provide an introduction into the current Manchester Evening Netball
     How this was met: the website provided a training sessions page with details in a calendar and list of traning sessions and locations.
     - user story 3: As a new netball player to Manchester I would like to be able to see what Netball clubs train on which day.  
     How this was met: The home page shows details of the club and it's history, the contact us page shows details of how to contact the club, the website provided a training sessions page with details in a calendar and list of traning sessions and locations.  There are two clickable links to show details of other / affiliated netball around Manchester.
-    - user story 4: testing goes here
-    - user story 5: testing goes here
-    - user story 6: testing goes here
-    - user story 7: testing goes here
+    - user story 4: As a netball player I would love to see pictures of training sessions.  How this was met: the website has a 6 picture rotating at the top of the page, then a section for training pictures that can be rotated
+    - user story 5: As a netball player I would love to see pictures of tournaments.  How this was met: the website has a 6 picture rotating at the top of the page, then a section for tournaments pictures that can be rotated
+    - user story 6: As a netball player I would love to see pictures of the social aspect of the club How this was met: the website has a 6 picture rotating at the top of the page, then a section for Social events pictures that can be rotated.
+    - user story 7: As a potential new player I would like to have a more interactive form that will let me know that my message has been received.  How this was met, I have added options for positions, and a message to confirm the message has been sent and that someone would contact them within 48 hours
   - Validator Testing
     - HTML
       - No errors were returned when passing through the official W3C validator
@@ -174,18 +176,23 @@ It will also provide an introduction into the current Manchester Evening Netball
     - Open Github and navigate to the main repository page
     - Go to Code --> HTTPS --> copy the link
     - Open Git Bash (Start --> Git Bash --> Open)
-    - pwd to check the directory
+    - pwd to check the directory the cloned repository it was going into.
     - git clone [paste]
     - enter
-### Deployment
-    - Deployment Steps ms2 - more in depth steps to go here including creating the branch and changing vs to correct branch
-      1. Log into GitHub repository
-      2. Go to project (cmnc)
-      3. Using main branch go to Deployment section
-      4. Click on the github-pages (https://kat-richardson-77.github.io/cmnc/)
-    - Local Development Setup
-      - Using Visual Studio,  I installed the extension Live Server, open the folder, then rightclick on index.html and run with live server top open within your browser.
-    - Cloning the Repository
+
+###  Local Development Setup
+     - Using Visual Studio,  I installed the extension Live Server, open the folder, then rightclick on index.html and run with live server top open within your browser.
+     
+### Live Deployment
+      1. Log into GitHub repository on website (https://github.com)
+      2. Navigate to current project being worked on cmnc
+      3. Using the Main branch and that this is using the latest code version go to Release section
+      4. Draft a new Release
+      5. Create a new tag I am using sequential tag numbers for mine
+      6. Add in values for the Title and click Generate Release Notes
+      7. Save as Draft and review
+      8. Click on the github-pages (https://kat-richardson-77.github.io/cmnc/)
+
 
 ### Screenshots of finished projects:
 [HomePage Test Screenshot](https://github.com/kat-richardson-77/cmnc/wiki/CMNC-Pictures).
@@ -205,3 +212,6 @@ It will also provide an introduction into the current Manchester Evening Netball
  [CMNCLogo](https://github.com/kat-richardson-77/cmnc/wiki/CMNC-Pictures).
  [MENLLogo](https://github.com/kat-richardson-77/cmnc/wiki/CMNC-Pictures).
  [ENLogo](https://github.com/kat-richardson-77/cmnc/wiki/CMNC-Pictures).
+
+### Permissions
+- I spoke to a selection of members of the club who confirmed that they are happy to have pictures displayed.
