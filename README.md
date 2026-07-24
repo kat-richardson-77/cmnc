@@ -97,7 +97,9 @@ It will also provide an introduction into the current Manchester Evening Netball
 ### Wireframes
 
 [WireFrame Website design](https://github.com/kat-richardson-77/cmnc/wiki/CMNC-Pictures).
-[wireframe for updated website to include page for photos and updated forms]
+<img width="1312" height="2126" alt="Wireframe1" src="https://github.com/user-attachments/assets/39e63d2f-b7f1-439b-8960-52025ff5befe" />
+<img width="1302" height="1978" alt="Wireframe2" src="https://github.com/user-attachments/assets/a6968953-a563-4a6a-b21c-abc06936fd6a" />
+
 
 ### Features
 - Existing Features
