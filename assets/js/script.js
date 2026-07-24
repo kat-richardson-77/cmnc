@@ -1,20 +1,22 @@
-//load javascript
-document.addEventListener("DOMContentLoaded",function(){});
-//Form functionality
+  //Form functionality
 
 // button click for clear form
 
 // gather form data and send to email
 
 // button click for submit form
-document.getElementById("myMessageForm").addEventListener("submit", submitForm);
+//document.getElementById("myMessageForm").addEventListener("submit", submitForm);
 
-function submitForm(){
+
+//submitButton.addEventListener("click", () => (
+//  alert("Your Form has been submitted successfully!  Someone will contact you back within 48 hours")
+//))
+
+function submit_function () {
 const form = document.getElementById("myMessageForm");
-const submitButton = document.getElementById("btnSubmit");
 const resetButton = document.getElementById("btnReset");
 const newMessage = document.getElementById("newMessage");
-
+const submitButton = document.getElementById("btnSubmit");
 //Submit button functionality
 submitButton.addEventListener("click", () => {
     //collect the data

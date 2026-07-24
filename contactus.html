@@ -67,10 +67,10 @@
         <p>Secretary - Jess Laver - Contact number 00000000000</p>
         <p>Treasurer - Katie Richardson - Contact number 0744 697 2141</p>
         <!--Contact us form with name, phone, email from, message and positions-->
-        <form class="row g-3" name="myMessageForm">
+        <form class="row g-3" name="myMessageForm" action="" onsubmit="submit_form">
             <div class="col-lg-4">
                 <label for="your-name" class="form-label">Your Name</label>
-                <input type="text" class="form-control" id="your-name" placeholder="First and Last name" required>
+                <input type="text" class="form-control" id="your-name" placeholder="First and Last name" >
             </div>
             <div class="col-lg-4">
                 <label for="phonenumber" class="form-label">Phone number</label>
@@ -156,7 +156,7 @@
         </div>
     </footer>
     <!--JavaScript Link-->
-    <script src="assets/js/script.js"></script>
+    <script src="assets/js/script.js" defer></script>
 </body>
 
 </html>
