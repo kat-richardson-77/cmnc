@@ -186,12 +186,14 @@ It will also provide an introduction into the current Manchester Evening Netball
 ### Live Deployment
       1. Log into GitHub repository on website (https://github.com)
       2. Navigate to current project being worked on cmnc
-      3. Using the Main branch and that this is using the latest code version go to Release section
-      4. Draft a new Release
-      5. Create a new tag I am using sequential tag numbers for mine
-      6. Add in values for the Title and click Generate Release Notes
-      7. Save as Draft and review
-      8. Click on the github-pages (https://kat-richardson-77.github.io/cmnc/)
+      3. Merged all branches into the Main branch and that this is using the latest code version go to Release section
+      4. Create a new Release
+          a. Select Tag (or create a new one) using sequential numbers 001, 002 etc
+          b. Target Main Branch
+          c. Release Title
+          d. Generate Release Notes
+          e. Save then Publish Release
+      5. Click on the github-pages (https://kat-richardson-77.github.io/cmnc/)
 
 
 ### Screenshots of finished projects:
@@ -207,6 +209,7 @@ It will also provide an introduction into the current Manchester Evening Netball
   - Bootstrap
   - Google Calendar
   - favicon.io (https://favicon.io/favicon-converter/) used to create the favicon
+  - Formspree utilising the free collection of form data to an email
 
 ### logo's
  [CMNCLogo](https://github.com/kat-richardson-77/cmnc/wiki/CMNC-Pictures).
