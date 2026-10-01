@@ -218,6 +218,7 @@ It will also provide an introduction into the current Manchester Evening Netball
   - Google Calendar
   - favicon.io (https://favicon.io/favicon-converter/) used to create the favicon
   - formspree - this is used to collate the infomration from the form and sent to my email
+  - Formspree utilising the free collection of form data to an email
 
 ### logo's
  [CMNCLogo](https://github.com/kat-richardson-77/cmnc/wiki/CMNC-Pictures).
