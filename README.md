@@ -43,27 +43,29 @@ It will also provide an introduction into the current Manchester Evening Netball
     - As a netball player I would love to see pictures of training sessions
     - Acceptance Criteria:
       - to show pictures of training sessions
-      - to show training sessions broken down into years
-      - to show training sessions broken down by months
-      - to ensure they are labled
+      - to show different training sessions
+
   - user story 5 (ms2)
     - As a netball player I would love to see pictures of tournaments
       - Acceptance Criteria:
         - to show pictures of tournaments
-        - to show tournaments broken down into years
-        - to show tournaments broken down by months
-        - to ensure they are labled
+        - to show differenct tournaments
+
   - user story 6 (ms2)
     - As a netball player I would love to see pictures of the social aspect of the club
       - Acceptance Criteria:
         - to show pictures of social events
-        - to show social events broken down into years
-        - to show social events broken down by months
-        - to ensure they are labled
+        - to show different social events
+
   - user story 7 (ms2)
     - As a potential new player I would like to have a more interactive form that will let me know that my message has been received
       - Acceptance Criteria:
-        - to ensure that all sections required show a message to be completed
+        - form is sent when clicking on Submit
+        - validation of form for Name
+        - validation of form for email 
+        - validation of form for phone number
+        - validation of form for positions
+        - validation of form for message
         - to display a message to confirm that the enquiry has been sent
 
 - Design Choices
@@ -102,11 +104,14 @@ It will also provide an introduction into the current Manchester Evening Netball
 
 
 ### Features
-- Existing Features
+- Existing Features (MS1)
   - Menu list
-  - Contact us form
+  - Simple Contact us form
   - Calendar
   - list of training sessions
+- New features (MS2)
+  - Contact us form that sends the details using formspree to email address
+  - Gallery with carousel
 - Future Features
   - Addition of Spond a sports app that allows event planning and payments.
   - more interactive drop-down menu
@@ -141,7 +146,7 @@ It will also provide an introduction into the current Manchester Evening Netball
     How this was met: the website provided a training sessions page with details in a calendar and list of traning sessions and locations.
     - user story 3: As a new netball player to Manchester I would like to be able to see what Netball clubs train on which day.  
     How this was met: The home page shows details of the club and it's history, the contact us page shows details of how to contact the club, the website provided a training sessions page with details in a calendar and list of traning sessions and locations.  There are two clickable links to show details of other / affiliated netball around Manchester.
-    - user story 4: As a netball player I would love to see pictures of training sessions.  How this was met: the website has a 6 picture rotating at the top of the page, then a section for training pictures that can be rotated
+    - user story 4: As a netball player I would love to see pictures of training sessions.  How this was met: the website has a 6 picture rotating at the top of the page, then a section for training pictures that can be rotated periodically
     - user story 5: As a netball player I would love to see pictures of tournaments.  How this was met: the website has a 6 picture rotating at the top of the page, then a section for tournaments pictures that can be rotated
     - user story 6: As a netball player I would love to see pictures of the social aspect of the club How this was met: the website has a 6 picture rotating at the top of the page, then a section for Social events pictures that can be rotated.
     - user story 7: As a potential new player I would like to have a more interactive form that will let me know that my message has been received.  How this was met, I have added options for positions, and a message to confirm the message has been sent and that someone would contact them within 48 hours
@@ -153,6 +158,9 @@ It will also provide an introduction into the current Manchester Evening Netball
       [TValidator](https://github.com/kat-richardson-77/cmnc/wiki/CMNC-Pictures).
     - CSS
       - No errors were found when passing through the official (Jigsaw) validator
+    - Javascript    
+      - No errors were returned when passing through JSLint
+      picture
   - Lighthouse Testing
     - The homepage was tested for Website using Chrome Lighthouse for performance, accessability, Best Practices and SEO
       [Lighthouse Website](https://github.com/kat-richardson-77/cmnc/wiki/CMNC-Pictures).
@@ -209,6 +217,7 @@ It will also provide an introduction into the current Manchester Evening Netball
   - Bootstrap
   - Google Calendar
   - favicon.io (https://favicon.io/favicon-converter/) used to create the favicon
+  - formspree - this is used to collate the infomration from the form and sent to my email
   - Formspree utilising the free collection of form data to an email
 
 ### logo's

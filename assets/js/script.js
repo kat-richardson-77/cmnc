@@ -1,58 +1,65 @@
-  //Form functionality
+// validate form
 
-// button click for clear form
-
-// gather form data and send to email
-
-// button click for submit form
-//document.getElementById("myMessageForm").addEventListener("submit", submitForm);
-
-
-//submitButton.addEventListener("click", () => (
-//  alert("Your Form has been submitted successfully!  Someone will contact you back within 48 hours")
-//))
-
-function submit_function () {
-const form = document.getElementById("myMessageForm");
-const resetButton = document.getElementById("btnReset");
-const newMessage = document.getElementById("newMessage");
-const submitButton = document.getElementById("btnSubmit");
-//Submit button functionality
-submitButton.addEventListener("click", () => {
-    //collect the data
-    const formData = new FormData(form);
-    const name = formData.get("your-name");
-    const number = formData.get("phonenumber");
-    const email = formData.get("email");
-   // const position = formData.get("")
-    const message = formData.get("message");
-
-    //validate inputs
-
-    if (!name || !email || !number || !message) {
-        outputDiv.innerHTML = "<p style='color: darkpink;'> Please fill in all fields! </p>";
-        return;
+function validateForm() {
+    if(document.comForm.yourname.value === "") {
+        window.alert("Please enter your full name.");
+        document.comForm.yourname.focus();
+        return false;
     }
+    if(document.comForm.phonenumber.value === "") {
+        window.alert("Please enter your phone number.");
+        document.comForm.phonenumber.focus();
+        return false;
+    }
+    if(document.comForm.email.value === "") {
+        window.alert("Please enter your email address.");
+        document.comForm.email.focus();
+        return false;
+    }
+    if(document.comForm.position.length > 0) {
+        let isChecked = false;
+        for(let i = 0; i < document.comForm.position.length; i+= 1) {
+            if(document.comForm.position[i].checked) {
+                isChecked = true;
+                break;
+            }
+        }
+        if(!isChecked) {
+            window.alert("Please select one or more positions.");
+            return false;
+        }
+    }
+    if(document.comForm.message.value === "") {
+        window.alert("Please enter your message.");
+        document.comForm.message.focus();
+        return false;
+    }
+    return true;
+}
 
-    //display the form data
-    outputDiv.innerHTML = '<h4>Form has been submitted successfully!</h3><p>Name ${name}</p>';
-    
-}); }
+//Submit button functionality
 
-// carousel functionality
-// Activate the carousel
+  window.formspree = window.formspree || function () { (formspree.q = formspree.q || []).push(arguments); };
+  formspree('initForm', { formElement: '#my-form', formId: 'myezalkv' });
 
+
+//reset button functionality
+function resetForm() {
+    document.comForm.reset();
+}
+
+
+// carousel functionality auto rotate
 let slideIndex = 0;
 showSlides();
 
-function showSlides() {
-  let i;
-  let slides = document.getElementsByClassName("comSlides");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}
-  slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 3000); // Change image every 3 seconds
-}
+    function showSlides() {
+        let slides = document.getElementsByClassName("comSlides");
+        for (let i = 0; i < slides.length; i+=1) {
+            slides[i].style.display = "none";
+        }
+        slideIndex +=1;
+        if (slideIndex > slides.length) { slideIndex = 1; }
+        slides[slideIndex - 1].style.display = "block";
+        setTimeout(showSlides, 4000); //4 seconds between slides
+    }
