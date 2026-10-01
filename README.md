@@ -102,11 +102,14 @@ It will also provide an introduction into the current Manchester Evening Netball
 
 
 ### Features
-- Existing Features
+- Existing Features (MS1)
   - Menu list
-  - Contact us form
+  - Simple Contact us form
   - Calendar
   - list of training sessions
+- New features (MS2)
+  - Contact us form that sends the details using formspree to email address
+  - Gallery with carousel
 - Future Features
   - Addition of Spond a sports app that allows event planning and payments.
   - more interactive drop-down menu
@@ -153,6 +156,9 @@ It will also provide an introduction into the current Manchester Evening Netball
       [TValidator](https://github.com/kat-richardson-77/cmnc/wiki/CMNC-Pictures).
     - CSS
       - No errors were found when passing through the official (Jigsaw) validator
+    - Javascript    
+      - No errors were returned when passing through JSLint
+      picture
   - Lighthouse Testing
     - The homepage was tested for Website using Chrome Lighthouse for performance, accessability, Best Practices and SEO
       [Lighthouse Website](https://github.com/kat-richardson-77/cmnc/wiki/CMNC-Pictures).
@@ -186,12 +192,14 @@ It will also provide an introduction into the current Manchester Evening Netball
 ### Live Deployment
       1. Log into GitHub repository on website (https://github.com)
       2. Navigate to current project being worked on cmnc
-      3. Using the Main branch and that this is using the latest code version go to Release section
-      4. Draft a new Release
-      5. Create a new tag I am using sequential tag numbers for mine
-      6. Add in values for the Title and click Generate Release Notes
-      7. Save as Draft and review
-      8. Click on the github-pages (https://kat-richardson-77.github.io/cmnc/)
+      3. Merged all branches into the Main branch and that this is using the latest code version go to Release section
+      4. Create a new Release
+          a. Select Tag (or create a new one) using sequential numbers 001, 002 etc
+          b. Target Main Branch
+          c. Release Title
+          d. Generate Release Notes
+          e. Save then Publish Release
+      5. Click on the github-pages (https://kat-richardson-77.github.io/cmnc/)
 
 
 ### Screenshots of finished projects:
