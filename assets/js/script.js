@@ -6,17 +6,17 @@ function validateForm() {
         document.comForm.yourname.focus();
         return false;
     }
-    if(document.comForm.phonenumber.value === "") {
+    if (document.comForm.phonenumber.value === "") {
         window.alert("Please enter your phone number.");
         document.comForm.phonenumber.focus();
         return false;
     }
-    if(document.comForm.email.value === "") {
+    if (document.comForm.email.value === "") {
         window.alert("Please enter your email address.");
         document.comForm.email.focus();
         return false;
     }
-    if(document.comForm.position.length > 0) {
+    if (document.comForm.position.length > 0) {
         let isChecked = false;
         for(let i = 0; i < document.comForm.position.length; i+= 1) {
             if(document.comForm.position[i].checked) {
@@ -24,12 +24,12 @@ function validateForm() {
                 break;
             }
         }
-        if(!isChecked) {
+        if (!isChecked) {
             window.alert("Please select one or more positions.");
             return false;
         }
     }
-    if(document.comForm.message.value === "") {
+    if (document.comForm.message.value === "") {
         window.alert("Please enter your message.");
         document.comForm.message.focus();
         return false;
@@ -40,7 +40,7 @@ function validateForm() {
 //Submit button functionality
 
   window.formspree = window.formspree || function () { (formspree.q = formspree.q || []).push(arguments); };
-  formspree('initForm', { formElement: '#my-form', formId: 'myezalkv' });
+  formspree("initForm", { formElement: "#comForm", formId: "myezalkv" });
 
 
 //reset button functionality
@@ -50,16 +50,27 @@ function resetForm() {
 
 
 // carousel functionality auto rotate
+
 let slideIndex = 0;
 showSlides();
+function showSlides() {
+    let slides = document.getElementsByClassName("comSlides");
 
-    function showSlides() {
-        let slides = document.getElementsByClassName("comSlides");
-        for (let i = 0; i < slides.length; i+=1) {
-            slides[i].style.display = "none";
-        }
-        slideIndex +=1;
-        if (slideIndex > slides.length) { slideIndex = 1; }
-        slides[slideIndex - 1].style.display = "block";
-        setTimeout(showSlides, 4000); //4 seconds between slides
+    if (slides.length === 0) {
+        return;
     }
+
+    for (let i = 0; i < slides.length; i += 1) {
+        slides[i].style.display = "none";
+    }
+
+    slideIndex += 1;
+
+    if (slideIndex > slides.length) {
+        slideIndex = 1;
+    }
+
+    slides[slideIndex - 1].style.display = "block";
+
+    setTimeout(showSlides, 4000);
+}
