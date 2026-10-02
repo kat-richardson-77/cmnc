@@ -93,6 +93,10 @@ body {
     flex: 1;
 }
 
+.calendar {
+  border: 0;
+}
+
 /*change colour of buttons*/
 .btn-outline-primary {
     color: rgb(227, 5, 230);
