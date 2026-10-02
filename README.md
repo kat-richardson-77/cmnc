@@ -180,11 +180,14 @@ It will also provide an introduction into the current Manchester Evening Netball
     - tested on Microsoft Edge (Version 149.0.4022.62 (Official build) (64-bit))
   - Responsiveness Testing
     The website was tested with at multiple screen widths to ensure the layout adjusted accordingly.
+  - formspree testing
+    - confirm that the form does send to the email provided with the information filled in by the user
+      [formspree form recieved MS2](https://github.com/kat-richardson-77/cmnc/wiki/CMNC-Pictures).
   - Bugs Fixed
     - Original testing showed that menus were not responsive to resizing, resolved this by adding col structure
     - Original testing showed that links were not opening in another window, added _blank to code to resolve
+    - form now sends an email to formspree with the information collated from the user filling in the form
   - Known Issues
-    - form does not currently send information as this is a first draft version without the backend coding to send the details, this form will be worked on in subsequent iterations of the website
     - Google Calendar is not as responsive as I would like it to be.
     - Google Calendar has it's own css, this needs to be restructured 
 
