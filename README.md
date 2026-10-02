@@ -220,7 +220,7 @@ It will also provide an introduction into the current Manchester Evening Netball
 [Training Test Screenshot](https://github.com/kat-richardson-77/cmnc/wiki/CMNC-Pictures).
 [Phone1](https://github.com/kat-richardson-77/cmnc/wiki/CMNC-Pictures).
 [Phone2](https://github.com/kat-richardson-77/cmnc/wiki/CMNC-Pictures).
-= MS2
+- MS2
 [HomePage Test ScreenshotMS2](https://github.com/kat-richardson-77/cmnc/wiki/CMNC-Pictures).
 [ContactUs Test ScreenshotMS2](https://github.com/kat-richardson-77/cmnc/wiki/CMNC-Pictures).
 [Training Test ScreenshotMS2](https://github.com/kat-richardson-77/cmnc/wiki/CMNC-Pictures).
