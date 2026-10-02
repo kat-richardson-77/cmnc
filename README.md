@@ -152,15 +152,23 @@ It will also provide an introduction into the current Manchester Evening Netball
     - user story 6: As a netball player I would love to see pictures of the social aspect of the club How this was met: the website has a 6 picture rotating at the top of the page, then a section for Social events pictures that can be rotated.
     - user story 7: As a potential new player I would like to have a more interactive form that will let me know that my message has been received.  How this was met, I have added options for positions, and a message to confirm the message has been sent and that someone would contact them within 48 hours
   - Validator Testing
-    - HTML
+    - HTML MS1
       - No errors were returned when passing through the official W3C validator
       [HPValidator](https://github.com/kat-richardson-77/cmnc/wiki/CMNC-Pictures).
       [CUValidator](https://github.com/kat-richardson-77/cmnc/wiki/CMNC-Pictures).
       [TValidator](https://github.com/kat-richardson-77/cmnc/wiki/CMNC-Pictures).
+    - HTML MS2
+      - No errors were retirned when passing through the offical W3C Validator
+        [HPVALIDATORMS2](https://github.com/kat-richardson-77/cmnc/wiki/CMNC-Pictures).
+        [CUVALIDATORMS2](https://github.com/kat-richardson-77/cmnc/wiki/CMNC-Pictures).
+        [TVALIDATORMS2](https://github.com/kat-richardson-77/cmnc/wiki/CMNC-Pictures).
+        [GVALIDATORMS2](https://github.com/kat-richardson-77/cmnc/wiki/CMNC-Pictures).
     - CSS
       - No errors were found when passing through the official (Jigsaw) validator
+        [CSSValidateMS2](https://github.com/kat-richardson-77/cmnc/wiki/CMNC-Pictures).
     - Javascript    
-      - No errors were returned when passing through JSLint
+      - No errors were returned when passing through JSLint, there were several warnings, but these do not affect funtionality
+        JSValidateMS2](https://github.com/kat-richardson-77/cmnc/wiki/CMNC-Pictures).
       picture
   - Lighthouse Testing
     - The homepage was tested for Website using Chrome Lighthouse for performance, accessability, Best Practices and SEO
@@ -206,11 +214,20 @@ It will also provide an introduction into the current Manchester Evening Netball
 
 
 ### Screenshots of finished projects:
+- MS1
 [HomePage Test Screenshot](https://github.com/kat-richardson-77/cmnc/wiki/CMNC-Pictures).
 [ContactUs Test Screenshot](https://github.com/kat-richardson-77/cmnc/wiki/CMNC-Pictures).
 [Training Test Screenshot](https://github.com/kat-richardson-77/cmnc/wiki/CMNC-Pictures).
 [Phone1](https://github.com/kat-richardson-77/cmnc/wiki/CMNC-Pictures).
 [Phone2](https://github.com/kat-richardson-77/cmnc/wiki/CMNC-Pictures).
+= MS2
+[HomePage Test ScreenshotMS2](https://github.com/kat-richardson-77/cmnc/wiki/CMNC-Pictures).
+[ContactUs Test ScreenshotMS2](https://github.com/kat-richardson-77/cmnc/wiki/CMNC-Pictures).
+[Training Test ScreenshotMS2](https://github.com/kat-richardson-77/cmnc/wiki/CMNC-Pictures).
+[Phone1MS2](https://github.com/kat-richardson-77/cmnc/wiki/CMNC-Pictures).
+[Phone2MS2](https://github.com/kat-richardson-77/cmnc/wiki/CMNC-Pictures).
+[Phone3MS2](https://github.com/kat-richardson-77/cmnc/wiki/CMNC-Pictures).
+[Phone4MS2](https://github.com/kat-richardson-77/cmnc/wiki/CMNC-Pictures).
 
 ### Credits
   - The England Netball logo was taken from [England Netball's Engage Website](https://engage.englandnetball.co.uk/EnglandNetball)
